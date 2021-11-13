@@ -1,0 +1,159 @@
+Scan done
+8 networks found
+1: JOY-AIS_2.4G (-55)*
+2: zinniabkk_2.4G (-64)*
+3: Arttohome 2.4G (-67)*
+4: itti_AIS_2.4G (-69)*
+5: Mew1710 (-81)*
+6: Ultraman_rp2.4G (-90)*
+7: MODEW_2.4GHz (-91)*
+8: BankMaii_2.4G (-93)*
+
+Please, check if your WiFi network is on the list and check if it's strong enough (greater than -90).
+ESP32 will reset itself after 60 seconds if can't connect to the network
+Connecting to: Arttohome 2.4G........................................................................................................................E (65473) task_wdt: Task watchdog got triggered. The following tasks did not reset the watchdog in time:
+E (65473) task_wdt:  - WiFirec (CPU 1)
+E (65473) task_wdt:  - Task1 (CPU 1)
+E (65473) task_wdt: Tasks currently running:
+E (65473) task_wdt: CPU 0: IDLE0
+E (65473) task_wdt: CPU 1: WiFirec
+E (65473) task_wdt: Aborting.
+abort() was called at PC 0x4015273c on core 0
+
+ELF file SHA256: 0000000000000000
+
+Backtrace: 0x4008f118:0x3ffbfbb0 0x4008f395:0x3ffbfbd0 0x4015273c:0x3ffbfbf0 0x4008da29:0x3ffbfc10 0x401769db:0x3ffbc100 0x40153ffb:0x3ffbc120 0x40091b55:0x3ffbc140 0x400903a6:0x3ffbc160
+
+Rebooting...
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+
+Duino-Coin Official ESP32 Miner 2.76
+Start Rig
+
+WiFi disconnected!
+Scanning for WiFi networks
+Creating mining thread on core: 0
+Creating mining thread on core: 1
+Scan done
+9 networks found
+1: JOY-AIS_2.4G (-52)*
+2: Arttohome 2.4G (-56)*
+3: zinniabkk_2.4G (-61)*
+4: itti_AIS_2.4G (-67)*
+5: Pulaoil_2.4G (-76)*
+6: Mew1710 (-83)*
+7: MODEW_2.4GHz (-89)*
+8: Ultraman_rp2.4G (-91)*
+9: Meteora_2G (-91)*
+
+Please, check if your WiFi network is on the list and check if it's strong enough (greater than -90).
+ESP32 will reset itself after 60 seconds if can't connect to the network
+Connecting to: Arttohome 2.4G..........
+Connected to WiFi!
+    IP address: 192.168.100.21
+      Rig name: VampierRig
+
+MinerThread on CORE1 waiting for pool
+Fetching pool (https://server.duinocoin.com/getPool)... 
+MinerThread on CORE0 waiting for pool
+MinerThread on CORE0 waiting for pool
+MinerThread on CORE1 waiting for pool
+MinerThread on CORE0 waiting for pool
+Retrying pool list in: 1s
+MinerThread on CORE1 waiting for pool
+MinerThread on CORE0 waiting for pool
+Fetched pool: svko-pool-2 - 5.230.69.132:6002
+MinerThread on CORE1 connecting to Duino-Coin server...
+MinerThread on CORE1 is connected
+MinerThread on CORE0 connecting to Duino-Coin server...
+MinerThread on CORE0 is connected
+MinerThread on CORE1 received server version: 2.7
+MinerThread on CORE0 received server version: 2.7
+MinerThread on CORE1 asking for a new job for user: arttopix
+MinerThread on CORE1 buffer size is: 85 (OK)
+MinerThread on CORE0 asking for a new job for user: arttopix
+MinerThread on CORE0 buffer size is: 85 (OK)
+MinerThread on CORE1 found hash with nonce: 41838
+MinerThread on CORE1 Job Feedback: GOOD, Hashrate: 14121.71, shares found: #1
+MinerThread on CORE1 asking for a new job for user: arttopix
+MinerThread on CORE1 buffer size is: 85 (OK)
+MinerThread on CORE0 found hash with nonce: 56956
+MinerThread on CORE0 Job Feedback: GOOD, Hashrate: 14343.20, shares found: #1
+MinerThread on CORE0 asking for a new job for user: arttopix
+MinerThread on CORE0 buffer size is: 85 (OK)
+MinerThread on CORE0 found hash with nonce: 2273
+MinerThread on CORE0 Job Feedback: GOOD, Hashrate: 13570.31, shares found: #2
+MinerThread on CORE0 asking for a new job for user: arttopix
+MinerThread on CORE1 found hash with nonce: 31837
+MinerThread on CORE0 buffer size is: 85 (OK)
+MinerThread on CORE1 Job Feedback: GOOD, Hashrate: 16150.12, shares found: #2
+MinerThread on CORE1 asking for a new job for user: arttopix
+MinerThread on CORE1 buffer size is: 85 (OK)
+MinerThread on CORE1 found hash with nonce: 16430
+MinerThread on CORE0 found hash with nonce: 26915
+MinerThread on CORE1 Job Feedback: GOOD, Hashrate: 13871.29, shares found: #3
+MinerThread on CORE1 asking for a new job for user: arttopix
+MinerThread on CORE0 Job Feedback: GOOD, Hashrate: 14397.45, shares found: #3
+MinerThread on CORE0 asking for a new job for user: arttopix
+MinerThread on CORE1 buffer size is: 85 (OK)
+MinerThread on CORE0 buffer size is: 85 (OK)
+MinerThread on CORE0 found hash with nonce: 16458
+MinerThread on CORE0 Job Feedback: GOOD, Hashrate: 13613.39, shares found: #4
+MinerThread on CORE0 asking for a new job for user: arttopix
+MinerThread on CORE0 buffer size is: 85 (OK)
+MinerThread on CORE1 found hash with nonce: 74421
+MinerThread on CORE1 Job Feedback: GOOD, Hashrate: 14581.05, shares found: #4
+MinerThread on CORE1 asking for a new job for user: arttopix
+MinerThread on CORE1 buffer size is: 85 (OK)
+MinerThread on CORE0 found hash with nonce: 38343
+MinerThread on CORE0 Job Feedback: GOOD, Hashrate: 14051.18, shares found: #5
+MinerThread on CORE0 asking for a new job for user: arttopix
+MinerThread on CORE0 buffer size is: 85 (OK)
+MinerThread on CORE1 found hash with nonce: 54157
+MinerThread on CORE1 Job Feedback: GOOD, Hashrate: 14167.60, shares found: #5
+MinerThread on CORE1 asking for a new job for user: arttopix
+MinerThread on CORE0 found hash with nonce: 50407
+MinerThread on CORE1 buffer size is: 85 (OK)
+MinerThread on CORE0 Job Feedback: GOOD, Hashrate: 13887.87, shares found: #6
+MinerThread on CORE0 asking for a new job for user: arttopix
+MinerThread on CORE0 buffer size is: 85 (OK)
+MinerThread on CORE0 found hash with nonce: 9675
+MinerThread on CORE1 found hash with nonce: 23210
+MinerThread on CORE0 Job Feedback: GOOD, Hashrate: 13628.22, shares found: #7
+MinerThread on CORE0 asking for a new job for user: arttopix
+MinerThread on CORE0 buffer size is: 85 (OK)
+MinerThread on CORE1 Job Feedback: GOOD, Hashrate: 15292.78, shares found: #6
+MinerThread on CORE1 asking for a new job for user: arttopix
+MinerThread on CORE1 buffer size is: 85 (OK)
+MinerThread on CORE1 found hash with nonce: 58073
+MinerThread on CORE0 found hash with nonce: 64188
+MinerThread on CORE1 Job Feedback: GOOD, Hashrate: 13877.46, shares found: #7
+MinerThread on CORE1 asking for a new job for user: arttopix
+MinerThread on CORE0 Job Feedback: GOOD, Hashrate: 13788.55, shares found: #8
+MinerThread on CORE0 asking for a new job for user: arttopix
+MinerThread on CORE1 buffer size is: 85 (OK)
+MinerThread on CORE0 buffer size is: 85 (OK)
+MinerThread on CORE1 found hash with nonce: 13103
+MinerThread on CORE1 Job Feedback: GOOD, Hashrate: 13598.60, shares found: #8
+MinerThread on CORE1 asking for a new job for user: arttopix
+MinerThread on CORE1 buffer size is: 85 (OK)
+MinerThread on CORE0 found hash with nonce: 46106
+MinerThread on CORE0 Job Feedback: GOOD, Hashrate: 14258.27, shares found: #9
+MinerThread on CORE0 asking for a new job for user: arttopix
+MinerThread on CORE0 buffer size is: 85 (OK)
+MinerThread on CORE1 found hash with nonce: 43370
+MinerThread on CORE1 Job Feedback: GOOD, Hashrate: 14549.43, shares found: #9
+MinerThread on CORE1 asking for a new job for user: arttopix
+MinerThread on CORE1 buffer size is: 85 (OK)
+MinerThread on CORE0 found hash with nonce: 81156
+MinerThread on CORE1 found hash with nonce: 48340
+MinerThread on CORE0 Job Feedback: GOOD, Hashrate: 13698.42, shares found: #10
+MinerThread on CORE0 asking for a new job for user: arttopix
+MinerThread on CORE1 Job Feedback: GOOD, Hashrate: 13476.92, shares found: #10
+MinerThread on CORE1 asking for a new job for user: arttopix
+MinerThread on CORE0 buffer size is: 85 (OK)
+MinerThread on CORE1 buffer size is: 85 (OK)
+MinerThread on CORE0 found hash with nonce: 35503
+MinerThread on CORE0 Job Feedback: GOOD, Hashrate: 13463.63, shares found: #11
+MinerThread on CORE0 asking for a new job for user: arttopix
+MinerThread on CORE0 buffer size is: 85 (OK)

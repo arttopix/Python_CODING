@@ -1,0 +1,237 @@
+Scan done
+8 networks found
+1: JOY-AIS_2.4G (-51)*
+2: Arttohome 2.4G (-54)*
+3: zinniabkk_2.4G (-64)*
+4: itti_AIS_2.4G (-67)*
+5: Mew1710 (-79)*
+6: Pulaoil_2.4G (-79)*
+7: Ultraman_rp2.4G (-90)*
+8: MODEW_2.4GHz (-91)*
+
+Please, check if your WiFi network is on the list and check if it's strong enough (greater than -90).
+ESP32 will reset itself after 60 seconds if can't connect to the network
+Connecting to: Arttohome 2.4G........................................................................................................................E (65240) task_wdt: Task watchdog got triggered. The following tasks did not reset the watchdog in time:
+E (65240) task_wdt:  - IDLE0 (CPU 0)
+E (65240) task_wdt:  - WiFirec (CPU 0)
+E (65240) task_wdt:  - Task1 (CPU 0)
+E (65240) task_wdt: Tasks currently running:
+E (65240) task_wdt: CPU 0: WiFirec
+E (65240) task_wdt: CPU 1: loopTask
+E (65240) task_wdt: Aborting.
+abort() was called at PC 0x4013d01c on core 0
+
+ELF file SHA256: 0000000000000000
+
+Backtrace: 0x4008f2ec:0x3ffbfb50 0x4008f569:0x3ffbfb70 0x4013d01c:0x3ffbfb90 0x4008da15:0x3ffbfbb0 0x4000bfed:0x3ffda430 0x400916ed:0x3ffda440 0x4009035f:0x3ffda460 0x4012fd92:0x3ffda4a0 0x4011f93d:0x3ffda4c0 0x400d695a:0x3ffda4f0 0x400d79ce:0x3ffda530 0x400d1c2d:0x3ffda550 0x4009057a:0x3ffda5b0
+
+Rebooting...
+x
+
+Duino-Coin Official ESP32 Miner 2.73
+
+WiFi disconnected!
+Scanning for WiFi networks
+Scan done
+8 networks found
+1: JOY-AIS_2.4G (-55)*
+2: Arttohome 2.4G (-58)*
+3: zinniabkk_2.4G (-62)*
+4: itti_AIS_2.4G (-66)*
+5: Pulaoil_2.4G (-76)*
+6: Mew1710 (-80)*
+7: Ultraman_rp2.4G (-91)*
+8: MODEW_2.4GHz (-91)*
+
+Please, check if your WiFi network is on the list and check if it's strong enough (greater than -90).
+ESP32 will reset itself after 60 seconds if can't connect to the network
+Connecting to: Arttohome 2.4G..........
+Connected to WiFi!
+    IP address: 192.168.100.21
+      Rig name: VampierRig
+
+Fetching pool... 
+Fetched pool: null-pool-1 - 5.230.70.190:6000
+
+CORE1 Connecting to Duino-Coin server...
+CORE1 is connected
+
+CORE2 Connecting to Duino-Coin server...
+CORE2 is connected
+CORE1 Connected to the server. Server version: 2.7
+CORE1 Asking for a new job for user: arttopix
+CORE2 Connected to the server. Server version: 2.7
+CORE1 Buffer size is 85
+CORE2 Asking for a new job for user: arttopix
+CORE2 Buffer size is 85
+CORE1 Job received: d7460e685c2c2e37b727691eb707884b5df6fa67 BAFB802A930A187FE59F654214D6490BA02B175C 84201
+CORE2 Job received: 14d8c0d278306e582c9644f9102642552f8a4279 5B797C7B475AC052454BF3475A892C5DA954B3CC 84201
+CORE2 Posting result and waiting for feedback.
+CORE2 GOOD share #1 (24681) hashrate: 10702.95
+CORE2 Asking for a new job for user: arttopix
+CORE2 Buffer size is 85
+CORE1 Posting result and waiting for feedback.
+CORE1 GOOD share #1 (39432) hashrate: 11042.29
+CORE1 Asking for a new job for user: arttopix
+CORE1 Buffer size is 85
+CORE2 Job received: 86f867b50f6cb428f3e490a60e82f2c04700adcc 521EAC491FB412B4742F0395134C77725D7DF79C 84201
+CORE1 Job received: 275051a915010c07d4c3df308cff8c4cf1ec389f 389CA4268BFC372502A2E5554F58E3002A3EFE3E 84201
+CORE1 Posting result and waiting for feedback.
+CORE1 GOOD share #2 (36712) hashrate: 10441.41
+CORE1 Asking for a new job for user: arttopix
+CORE1 Buffer size is 85
+CORE1 Job received: 02b7a20cd8f1abfad00a7bb06f8919a9199b5c53 AB7249BF14796986384A27855390091198AE113D 84201
+CORE2 Posting result and waiting for feedback.
+CORE2 GOOD share #2 (68198) hashrate: 11347.42
+CORE2 Asking for a new job for user: arttopix
+CORE2 Buffer size is 85
+CORE1 Posting result and waiting for feedback.
+CORE1 GOOD share #3 (12259) hashrate: 12125.62
+CORE1 Asking for a new job for user: arttopix
+CORE1 Buffer size is 85
+CORE2 Job received: ad75e16151123b782f4a3c92608b7c48b1c2d74b 8A99A8B7713640FC81D65DBCE67244A53F6ADFBE 84201
+CORE1 Job received: 4644516f062483ab9abf1e56acfb0828d09a59cd E5DE6A4949397634612DC529C550578D740E7216 84201
+CORE2 Posting result and waiting for feedback.
+CORE2 GOOD share #3 (51520) hashrate: 10968.70
+CORE2 Asking for a new job for user: arttopix
+CORE2 Buffer size is 85
+CORE1 Posting result and waiting for feedback.
+CORE1 GOOD share #4 (54006) hashrate: 10853.30
+CORE1 Asking for a new job for user: arttopix
+CORE2 Job received: c90985cc9b79b26ba036b4030d6e4ba436a4fd61 A625066B9A05BD387DC6A9241C79143EA2E87F36 84201
+CORE1 Buffer size is 85
+CORE1 Job received: 6cf949632c8c4469e0b499087208005c2903c15b 2BB3852BFC65426755A5A25DFD6B876E8DC75FB1 84201
+CORE2 Posting result and waiting for feedback.
+CORE2 GOOD share #4 (53585) hashrate: 11087.32
+CORE2 Asking for a new job for user: arttopix
+CORE2 Buffer size is 85
+CORE2 Job received: b83c4588a6a0a86b91d3533c7acd0e4e3ad19b68 DE50FBC5B68FC5BCDD89E6063FB1FC1AEFC86EBC 84201
+CORE2 Posting result and waiting for feedback.
+CORE2 GOOD share #5 (8024) hashrate: 10770.47
+CORE1 Posting result and waiting for feedback.
+CORE2 Asking for a new job for user: arttopix
+CORE1 GOOD share #5 (69914) hashrate: 10972.06
+CORE2 Buffer size is 85
+CORE1 Asking for a new job for user: arttopix
+CORE1 Buffer size is 85
+CORE2 Job received: 718ebe646000b87aeca997c66bafcf45519a0a0f 8BE934767196844A1324BBF50294CFE11F6AE2E3 84201
+CORE1 Job received: 160f75c75784d1428a849c25c4c7b6e698d76f6f 5230986BE37B565B5F07207B87B896A2B52A4701 84201
+CORE2 Posting result and waiting for feedback.
+CORE2 GOOD share #6 (26565) hashrate: 10905.17
+CORE2 Asking for a new job for user: arttopix
+CORE2 Buffer size is 85
+CORE2 Job received: 0aa5dfd4319358977646e7a89347c26eefe7ce99 09EEF4707092557E686661F1586CEA158763B122 84201
+CORE1 Posting result and waiting for feedback.
+CORE1 GOOD share #6 (83367) hashrate: 10770.93
+CORE1 Asking for a new job for user: arttopix
+CORE1 Buffer size is 85
+CORE1 Job received: cc242c3eb0fc4e6a0bc4b0e26543ca10f2c30a92 E7E2083D341154C2A21E11661D4F2E901721EEA4 84201
+CORE2 Posting result and waiting for feedback.
+CORE2 GOOD share #7 (68087) hashrate: 11152.66
+CORE2 Asking for a new job for user: arttopix
+CORE2 Buffer size is 85
+CORE2 Job received: fb0ba640960922cbb6e94bd15025b2bc3e30866f 6E64F22E596A972B4CB050D15355709FE7BA6D95 84201
+CORE2 Posting result and waiting for feedback.
+CORE2 GOOD share #8 (21666) hashrate: 10725.74
+CORE2 Asking for a new job for user: arttopix
+CORE2 Buffer size is 85
+CORE2 Job received: 57a23c8bfa51487ba9194f5583cfe2daf5f44651 767CF81D34F045EB1FDF6618354CC14B33D92C61 84201
+CORE1 Posting result and waiting for feedback.
+CORE1 GOOD share #7 (70606) hashrate: 11237.62
+CORE1 Asking for a new job for user: arttopix
+CORE1 Buffer size is 85
+CORE1 Job received: 700aadab9adacb08bd20c208f6c2cf3c7418f0f4 D9260682B0514655D16688E2488769C22F4A8BCA 84201
+CORE2 Posting result and waiting for feedback.
+CORE2 GOOD share #9 (62071) hashrate: 11226.44
+CORE1 Posting result and waiting for feedback.
+CORE2 Asking for a new job for user: arttopix
+CORE1 GOOD share #8 (40012) hashrate: 10652.82
+CORE2 Buffer size is 85
+CORE1 Asking for a new job for user: arttopix
+CORE1 Buffer size is 85
+CORE2 Job received: c10ab1d93fa8319a8f9f1c16f7b117a3c53fcc7c 1FB4C939E5AA82B69467C28856D488D3251FA856 84201
+CORE1 Job received: 444b34376bf1deebd338115c2d1e6fff33b7ca59 64D8BE47497F51FEE3BF0B2E3745D34D7BD056D8 84201
+CORE1 Posting result and waiting for feedback.
+CORE1 GOOD share #9 (33652) hashrate: 10467.19
+CORE1 Asking for a new job for user: arttopix
+CORE1 Buffer size is 85
+CORE2 Posting result and waiting for feedback.
+CORE2 GOOD share #10 (52476) hashrate: 11273.04
+CORE2 Asking for a new job for user: arttopix
+CORE1 Job received: 1742afaa8e5ef25c0c45c75f61f1e7dbea43aced 46DD09701791AAC20585134F97135C3DCF999A08 84201
+CORE2 Buffer size is 85
+CORE2 Job received: f4b4e2c508563c1d9910debcd6f19857e5278845 6830ED759F196084D4DF0C13D6AE705E5FF6FF93 84201
+CORE2 Posting result and waiting for feedback.
+CORE2 GOOD share #11 (45892) hashrate: 10694.94
+CORE2 Asking for a new job for user: arttopix
+CORE2 Buffer size is 85
+CORE1 Posting result and waiting for feedback.
+CORE1 GOOD share #10 (70455) hashrate: 10916.49
+CORE1 Asking for a new job for user: arttopix
+CORE2 Job received: 06cd1d151e6ed0de1fe3206392257c0347a5a755 6FF8C49F79A4598C52CFF715C0FC89414253CEB0 84201
+CORE1 Buffer size is 85
+CORE2 Posting result and waiting for feedback.
+CORE1 Job received: b1f844611f1387036c60f799c242aed141ac67f1 9090467DA27EBAB465A599874A8F4D454ABAD689 84201
+CORE2 GOOD share #12 (11721) hashrate: 12158.71
+CORE2 Asking for a new job for user: arttopix
+CORE2 Buffer size is 85
+CORE2 Job received: 683d5db4fd17624083033f2de48c9c8c12c7739e 9B4F88003EB1661D87D74D2E7B1D20683209B31E 84201
+CORE1 Posting result and waiting for feedback.
+CORE1 GOOD share #11 (46903) hashrate: 10971.46
+CORE1 Asking for a new job for user: arttopix
+CORE1 Buffer size is 85
+CORE1 Job received: 005d09d6e335b22cf968d56943d1e977fc222e96 C7ED4AB2A89F1F82986F0ABE5473C45CCBE39E24 84201
+CORE2 Posting result and waiting for feedback.
+CORE2 GOOD share #13 (51695) hashrate: 11309.34
+CORE2 Asking for a new job for user: arttopix
+CORE2 Buffer size is 85
+CORE2 Job received: f42d87b13165d2a0f3d7a52a52ae5fae5adec2a2 40B1D76EDA6B8024F50FBBEA763FFF17B0E73E95 84201
+CORE2 Posting result and waiting for feedback.
+CORE2 GOOD share #14 (19282) hashrate: 10700.33
+CORE1 Posting result and waiting for feedback.
+CORE2 Asking for a new job for user: arttopix
+CORE1 GOOD share #12 (45531) hashrate: 11300.82
+CORE2 Buffer size is 85
+CORE1 Asking for a new job for user: arttopix
+CORE1 Buffer size is 85
+CORE2 Job received: bfc5f9f963c56ba0dc85ca1fe7ae82960895b8c9 C764B9B1AF7182C0DB553A8D00F0F27A3BEF4E22 84201
+CORE1 Job received: 22deee9857f2905c74ff0a75695bf86cd7ddda9d CD42FF4C58C05099D6F3A52D547F7B392EFF2091 84201
+CORE1 Posting result and waiting for feedback.
+CORE1 GOOD share #13 (19110) hashrate: 10465.50
+CORE1 Asking for a new job for user: arttopix
+CORE1 Buffer size is 85
+CORE1 Job received: c223e0992a4e12219686dbbd628d5406d28bee8e 40EC0854729868074A9E48563BB85399D1775D01 84201
+CORE1 Posting result and waiting for feedback.
+CORE2 Posting result and waiting for feedback.
+CORE1 GOOD share #14 (2390) hashrate: 10482.46
+CORE2 GOOD share #15 (47453) hashrate: 11528.91
+CORE1 Asking for a new job for user: arttopix
+CORE2 Asking for a new job for user: arttopix
+CORE1 Buffer size is 85
+CORE2 Buffer size is 85
+CORE1 Job received: 778c268f4685f5a4a350370f9324ae66e28af8d5 3EEB5CFA37AB4C0CC2ABCCD9668827AE277B806C 84201
+CORE2 Job received: f334a736e026220b6b1b71513544fece7b829c0f E06C76619A2D6457077B54142A034369E6F47522 84201
+CORE2 Posting result and waiting for feedback.
+CORE2 GOOD share #16 (4337) hashrate: 10682.27
+CORE2 Asking for a new job for user: arttopix
+CORE2 Buffer size is 85
+CORE2 Job received: a5c01a763bffea1a662764bab354ac101bcdd2ae C72DDA1C5B43486BF3123E832688C362E25405C1 84201
+CORE2 Posting result and waiting for feedback.
+CORE2 GOOD share #17 (41236) hashrate: 10685.67
+CORE2 Asking for a new job for user: arttopix
+CORE2 Buffer size is 85
+CORE1 Posting result and waiting for feedback.
+CORE1 GOOD share #15 (82221) hashrate: 11112.45
+CORE2 Job received: 9b06cac82b574d6fd4cc1687ad3d44935c39ea05 987C8516819AC11E14D4D70CE3D77BA5367E6837 84201
+CORE1 Asking for a new job for user: arttopix
+CORE1 Buffer size is 85
+CORE1 Job received: ff22511ef7d22e69307ba223b9d368e51c14be5f 622931923A2763390B8FAC85D1920105BAE07C41 84201
+CORE1 Posting result and waiting for feedback.
+CORE1 GOOD share #16 (16443) hashrate: 10479.92
+CORE1 Asking for a new job for user: arttopix
+CORE1 Buffer size is 85
+CORE2 Posting result and waiting for feedback.
+CORE1 Job received: 437e8f6e78429fb7b0cc59fa56db273ec4adf4e3 DA42FD81F0246CDA330D4087D7692C15582EFFA8 84201
+CORE2 GOOD share #18 (53343) hashrate: 11780.70
+CORE2 Asking for a new job for user: arttopix
+CORE2 Buffer size is 85
